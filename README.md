@@ -1,15 +1,31 @@
 # Task Demo App
 
 Simple full-stack demo using:
-- React frontend
-- Express backend
-- MongoDB
-- Mongoose
 
-## Run locally
+- React frontend  
+- Express backend  
+- MongoDB  
+- Mongoose  
 
-Start MongoDB:
-mongod --dbpath C:\mongodb-data
+This project demonstrates a basic task manager where tasks are stored in MongoDB and accessed through a REST API.
 
-Start app:
-npm run dev
+---
+
+## 🧰 Requirements
+
+Install these first:
+
+- Node.js (https://nodejs.org)
+- MongoDB Community Server
+
+Make sure MongoDB is installed and available from the terminal.
+
+---
+
+## 🚀 Quick Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/task-demo.git
+cd task-demo
