@@ -1,7 +1,8 @@
 {
-  "name": "demo-project",
+  "name": "task-demo",
   "private": true,
   "scripts": {
+    "setup": "npm install && if not exist C:\\mongodb-data mkdir C:\\mongodb-data && cd backend && npm install && cd ../frontend && npm install",
     "dev": "concurrently \"cd backend && npx nodemon server.js\" \"cd frontend && npm start\""
   },
   "devDependencies": {
