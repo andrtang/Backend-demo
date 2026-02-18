@@ -11,7 +11,7 @@ This project demonstrates a basic task manager where tasks are stored in MongoDB
 
 ---
 
-## 🧰 Requirements
+## Requirements
 
 Install these first:
 
@@ -25,7 +25,7 @@ During MongoDB installation on Windows, choose:
 
 ---
 
-## ⚙️ Add MongoDB to PATH (Windows)
+## Add MongoDB to PATH (Windows)
 
 After installing MongoDB, ensure `mongod` can run from any terminal.
 
