@@ -18,7 +18,30 @@ Install these first:
 - Node.js (https://nodejs.org)
 - MongoDB Community Server (https://www.mongodb.com/try/download/community)
 
-Make sure MongoDB is installed and available from the terminal.
+During MongoDB installation on Windows, choose:
+- **Complete install**
+- **Install MongoDB as a Service**
+- **Install MongoDB Compass (optional)**
+
+---
+
+## ⚙️ Add MongoDB to PATH (Windows)
+
+After installing MongoDB, ensure `mongod` can run from any terminal.
+
+1. Open Start → search **Environment Variables**
+2. Click **Edit the system environment variables**
+3. Click **Environment Variables**
+4. Under **System variables**, select **Path → Edit**
+5. Add: C:\Program Files\MongoDB\Server\8.2\bin
+(Adjust version number if your MongoDB version is different)
+
+Click OK and restart your terminal
+Test by running the following in terminal:
+
+```bash
+mongod --version
+```
 
 ---
 
