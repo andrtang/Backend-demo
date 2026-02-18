@@ -2,7 +2,7 @@
   "name": "backend-demo",
   "private": true,
   "scripts": {
-    "setup": "npm install && if not exist C:\\mongodb-data mkdir C:\\mongodb-data && if not exist backend\\.env echo PORT=5001>backend\\.env && if not exist backend\\.env echo MONGO_URI=mongodb://127.0.0.1:27017/tasksdb>>backend\\.env && cd backend && npm install && cd ../frontend && npm install",
+    "setup": "node setup.js",
     "dev": "concurrently \"cd backend && npx nodemon server.js\" \"cd frontend && npm start\""
   },
   "devDependencies": {
