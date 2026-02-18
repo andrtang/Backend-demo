@@ -16,7 +16,7 @@ This project demonstrates a basic task manager where tasks are stored in MongoDB
 Install these first:
 
 - Node.js (https://nodejs.org)
-- MongoDB Community Server
+- MongoDB Community Server (https://www.mongodb.com/try/download/community)
 
 Make sure MongoDB is installed and available from the terminal.
 
