@@ -1,4 +1,4 @@
-# Task Demo App
+# Backend Demo App
 
 Simple full-stack demo using:
 
@@ -27,5 +27,5 @@ Make sure MongoDB is installed and available from the terminal.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/task-demo.git
-cd task-demo
+git clone https://github.com/YOUR_USERNAME/backend-demo.git
+cd backend-demo
